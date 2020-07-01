@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Connector_Hirose2")(type "KiCad")(uri "/home/martin/dev/kicad/footprints/kicad-footprints/Connector_Hirose.pretty")(options "")(descr ""))
+  (lib (name "jack3.5")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+)

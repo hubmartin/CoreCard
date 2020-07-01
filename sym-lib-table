@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "1503_13_VP3")(type "Legacy")(uri "${KIPRJMOD}/lib/1503_13_VP3.lib")(options "")(descr ""))
+)

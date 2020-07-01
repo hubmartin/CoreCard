@@ -1,0 +1,368 @@
+EESchema Schematic File Version 5
+EELAYER 34 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 7500 2400
+Connection ~ 7500 2500
+Connection ~ 7500 2600
+Connection ~ 1900 3350
+Connection ~ 2850 3700
+Wire Wire Line
+	1900 3250 1900 3350
+Wire Wire Line
+	1900 3350 1900 3700
+Wire Wire Line
+	1900 3350 1950 3350
+Wire Wire Line
+	1950 3250 1900 3250
+Wire Wire Line
+	2850 3350 3100 3350
+Wire Wire Line
+	2850 3450 2850 3700
+Wire Wire Line
+	2850 3700 1900 3700
+Wire Wire Line
+	2850 3700 3100 3700
+Wire Wire Line
+	2850 4000 2850 4100
+Wire Wire Line
+	3400 3700 3800 3700
+Wire Wire Line
+	5400 4050 5400 4450
+Wire Wire Line
+	5500 4050 5400 4050
+Wire Wire Line
+	7200 3250 7550 3250
+Wire Wire Line
+	7200 3350 7550 3350
+Wire Wire Line
+	7200 3550 7550 3550
+Wire Wire Line
+	7200 3650 7650 3650
+Wire Wire Line
+	7200 3750 7550 3750
+Wire Wire Line
+	7200 3950 7450 3950
+Wire Wire Line
+	7200 4050 7300 4050
+Wire Wire Line
+	7300 4050 7300 4450
+Wire Wire Line
+	7500 2300 7500 2400
+Wire Wire Line
+	7500 2400 7500 2500
+Wire Wire Line
+	7500 2400 7600 2400
+Wire Wire Line
+	7500 2500 7500 2600
+Wire Wire Line
+	7500 2500 7600 2500
+Wire Wire Line
+	7500 2600 7500 2800
+Wire Wire Line
+	7500 2600 7600 2600
+Wire Wire Line
+	7500 2800 7600 2800
+Wire Wire Line
+	7650 3450 7200 3450
+Wire Wire Line
+	7750 3950 8100 3950
+Wire Wire Line
+	7900 2400 8150 2400
+Wire Wire Line
+	7900 2500 8150 2500
+Wire Wire Line
+	7900 2600 8150 2600
+Wire Wire Line
+	7900 2800 8050 2800
+Wire Wire Line
+	8100 3250 8100 3950
+Wire Wire Line
+	8100 3250 8700 3250
+Wire Wire Line
+	8300 3350 8700 3350
+Wire Wire Line
+	8350 3650 8700 3650
+Wire Wire Line
+	8350 3850 8700 3850
+Wire Wire Line
+	8350 3950 8700 3950
+Wire Wire Line
+	8350 4150 8700 4150
+Wire Wire Line
+	8600 3450 8700 3450
+Wire Wire Line
+	8600 3550 8700 3550
+Text Notes 2950 2600 2    50   ~ 0
+Audio out
+Text Label 3800 3700 2    50   ~ 0
+PWM
+Text Label 7550 3250 2    50   ~ 0
+CS
+Text Label 7550 3350 2    50   ~ 0
+MOSI
+Text Label 7550 3550 2    50   ~ 0
+CLK
+Text Label 7550 3750 2    50   ~ 0
+MISO
+Text Label 8150 2400 2    50   ~ 0
+CS
+Text Label 8150 2500 2    50   ~ 0
+MOSI
+Text Label 8150 2600 2    50   ~ 0
+MISO
+Text Label 8350 3650 0    50   ~ 0
+CLK
+Text Label 8350 3850 0    50   ~ 0
+MISO
+Text Label 8350 3950 0    50   ~ 0
+MOSI
+Text Label 8350 4150 0    50   ~ 0
+CS
+Text Label 8525 3350 2    50   ~ 0
+PWM
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F009F52
+P 7500 2300
+F 0 "#PWR0103" H 7500 2150 50  0001 C CNN
+F 1 "VCC" V 7498 2413 50  0000 L CNN
+F 2 "" H 7500 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EFF3AB3
+P 7650 3450
+F 0 "#PWR0101" H 7650 3300 50  0001 C CNN
+F 1 "VCC" V 7650 3600 50  0000 L CNN
+F 2 "" H 7650 3450 50  0001 C CNN
+F 3 "" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5EFF45AD
+P 8600 3450
+F 0 "#PWR0102" H 8600 3300 50  0001 C CNN
+F 1 "VCC" V 8598 3563 50  0000 L CNN
+F 2 "" H 8600 3450 50  0001 C CNN
+F 3 "" H 8600 3450 50  0001 C CNN
+	1    8600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F076811
+P 2850 4100
+F 0 "#PWR0109" H 2850 3850 50  0001 C CNN
+F 1 "GND" H 2850 3950 50  0000 C CNN
+F 2 "" H 2850 4100 50  0001 C CNN
+F 3 "" H 2850 4100 50  0001 C CNN
+	1    2850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F06700D
+P 3100 3350
+F 0 "#PWR0110" H 3100 3100 50  0001 C CNN
+F 1 "GND" V 3100 3150 50  0000 C CNN
+F 2 "" H 3100 3350 50  0001 C CNN
+F 3 "" H 3100 3350 50  0001 C CNN
+	1    3100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F017D92
+P 5400 4450
+F 0 "#PWR0108" H 5400 4200 50  0001 C CNN
+F 1 "GND" H 5450 4250 50  0000 C CNN
+F 2 "" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EFF3770
+P 7300 4450
+F 0 "#PWR0104" H 7300 4200 50  0001 C CNN
+F 1 "GND" H 7350 4250 50  0000 C CNN
+F 2 "" H 7300 4450 50  0001 C CNN
+F 3 "" H 7300 4450 50  0001 C CNN
+	1    7300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EFF7017
+P 7650 3650
+F 0 "#PWR0105" H 7650 3400 50  0001 C CNN
+F 1 "GND" V 7650 3450 50  0000 C CNN
+F 2 "" H 7650 3650 50  0001 C CNN
+F 3 "" H 7650 3650 50  0001 C CNN
+	1    7650 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5F01212D
+P 8050 2800
+F 0 "#PWR0107" H 8050 2550 50  0001 C CNN
+F 1 "GND" V 8024 2621 50  0000 C CNN
+F 2 "" H 8050 2800 50  0001 C CNN
+F 3 "" H 8050 2800 50  0001 C CNN
+	1    8050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EFF8D1C
+P 8600 3550
+F 0 "#PWR0106" H 8600 3300 50  0001 C CNN
+F 1 "GND" V 8574 3371 50  0000 C CNN
+F 2 "" H 8600 3550 50  0001 C CNN
+F 3 "" H 8600 3550 50  0001 C CNN
+	1    8600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F0736CE
+P 3250 3700
+F 0 "R5" V 3200 3850 50  0000 C CNN
+F 1 "1k" V 3250 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 3700 50  0001 C CNN
+F 3 "~" H 3250 3700 50  0001 C CNN
+	1    3250 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EFF9B53
+P 7600 3950
+F 0 "R1" V 7600 3950 50  0000 C CNN
+F 1 "1k" V 7500 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 3950 50  0001 C CNN
+F 3 "~" H 7600 3950 50  0001 C CNN
+	1    7600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F0079F1
+P 7750 2400
+F 0 "R2" V 7700 2550 50  0000 C CNN
+F 1 "47k" V 7750 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7680 2400 50  0001 C CNN
+F 3 "~" H 7750 2400 50  0001 C CNN
+	1    7750 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F00C506
+P 7750 2500
+F 0 "R3" V 7700 2650 50  0000 C CNN
+F 1 "47k" V 7750 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7680 2500 50  0001 C CNN
+F 3 "~" H 7750 2500 50  0001 C CNN
+	1    7750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F00D9F7
+P 7750 2600
+F 0 "R4" V 7700 2750 50  0000 C CNN
+F 1 "47k" V 7750 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7680 2600 50  0001 C CNN
+F 3 "~" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F070C56
+P 2850 3850
+F 0 "C2" V 3000 3850 50  0000 C CNN
+F 1 "100nF" V 2700 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 3700 50  0001 C CNN
+F 3 "~" H 2850 3850 50  0001 C CNN
+	1    2850 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F01157A
+P 7750 2800
+F 0 "C1" V 7800 2650 50  0000 C CNN
+F 1 "1uF" V 7600 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 2650 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1503_13_VP3:1503_13_VP3 J2
+U 1 1 5F05E25A
+P 1950 3250
+F 0 "J2" H 2400 3550 50  0000 C CNN
+F 1 "1503_13_VP3" H 2400 3450 50  0000 C CNN
+F 2 "jack3.5:150313VP3" H 2700 3350 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2047248.pdf" H 2700 3250 50  0001 L CNN
+F 4 "LUMBERG - 1503 13 VP3 - SOCKET, 3.5MM JACK, SMT, 4WAY" H 2700 3150 50  0001 L CNN "Description"
+F 5 "6" H 2700 3050 50  0001 L CNN "Height"
+F 6 "LUMBERG" H 2700 2950 50  0001 L CNN "Manufacturer_Name"
+F 7 "1503 13 VP3" H 2700 2850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "1503 13 VP3" H 2700 2750 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/150313vp3/lumberg" H 2700 2650 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 2700 2550 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 2700 2450 50  0001 L CNN "Mouser Price/Stock"
+	1    1950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hubmartin:spirit1_alt U1
+U 1 1 5EFF13EE
+P 8800 4050
+F 0 "U1" H 9350 4500 50  0000 L CNN
+F 1 "spirit1_alt" H 9350 4450 50  0000 L CNN
+F 2 "hubmartin:spirit1_alt" H 8800 4050 50  0001 C CNN
+F 3 "" H 8800 4050 50  0001 C CNN
+	1    8800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card_Det_Hirose_DM3AT J1
+U 1 1 5EFF0212
+P 6300 3550
+F 0 "J1" H 6250 4400 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 6250 4300 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 8350 4250 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6300 3650 50  0001 C CNN
+	1    6300 3550
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
