@@ -1,4 +1,4 @@
-update=St 1. července 2020, 22:32:49
+update=Po 13. července 2020, 09:56:38
 version=1
 last_client=kicad
 [general]
@@ -13,8 +13,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 [LibeditFrame]
-version=1
-[ModEditFrame]
 version=1
 [SchematicFrame]
 version=1
@@ -41,6 +39,8 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[ModEditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=

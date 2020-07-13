@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "1503_13_VP3")(type "Legacy")(uri "${KIPRJMOD}/lib/1503_13_VP3.lib")(options "")(descr ""))
+  (lib (name "CoreCard-rescue")(type "Legacy")(uri "${KIPRJMOD}/CoreCard-rescue.lib")(options "")(descr ""))
 )
